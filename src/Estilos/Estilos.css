@@ -1,0 +1,290 @@
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--cor-escura);
+    height: 90PX;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding: 2rem;
+
+
+}
+
+header h1 {
+    position: absolute;
+    color: var(--cor-fonte);
+    margin: 0 1rem;
+    font-weight: 400;
+    border-radius: 100%;
+    padding: 1rem;
+    border: solid 2px var(--cor-fonte);
+  
+    font-size: medium;
+
+}
+
+header svg {
+    display: none;
+    color: var(--cor-fonte);
+    cursor: pointer;
+
+
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.navBar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+
+}
+
+.containerMobile {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    align-items: end;
+    padding: 1rem;
+    gap: 2rem;
+    width: 100vw;
+    position: absolute;
+    top: 20px;
+
+}
+
+.navBarMobile {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+
+
+
+}
+
+.navBarMobile ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: end;
+
+}
+
+a {
+    color: var(--cor-fonte);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 500ms;
+
+}
+
+a:hover {
+
+    background-color: var(--cor-cinzaClaro);
+}
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    gap: 5rem;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    margin: 6rem 0 0 0;
+
+}
+
+.sobre .biografia {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    height: 200px;
+    width: 400px;
+    color: var(--cor-fonte);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
+}
+
+.sobre .biografia h2 {
+    font-weight: 400;
+}
+
+.sobre .biografia p {
+    font-weight: 300;
+
+}
+
+.sobre .biografia .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 300px;
+
+}
+
+.sobre .biografia .icons img {
+    height: 30px;
+    width: 30px;
+
+}
+
+.sobre .banner {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background-image: url("../assets/imagem/perfil.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 190px;
+    border: solid 5px var(--cor-fonte);
+    background-color: var(--cor-escura);
+
+
+}
+
+.habilidades {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades .card {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.habilidades .card img {
+    height: 50px;
+    width: 50px;
+}
+
+.projetos {
+    
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos .card {
+    margin: 1rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 300px;
+    width: 200px;
+    color: var(--cor-fonte);
+
+
+}
+.projetos .card h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--cor-escura);
+}
+
+.projetos .card p {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    padding: 1rem;
+    text-align: center;
+    color: transparent;
+    transition: all 700ms;
+    font-weight: 300;
+    font-size: small;
+    border-radius: 1rem;
+   
+}
+
+.projetos .card p:hover {
+    background-color: rgba(14, 14, 14, 0.406);
+    color: rgba(216, 226, 226, 0.848);
+    text-shadow: 2px 1px black;
+    scale: 0.99;
+
+}
+
+.projetos .card img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+    border: solid 2px var(--cor-fonte);
+
+
+}
+
+.projetos button {
+    height: 1.5rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cor-escura);
+    color: var(--cor-fonte);
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 500ms;
+
+}
+.projetos button:hover{
+    scale: 1.03;
+    background-color: var(--cor-cinzaClaro);
+    color: var(--cor-escura);
+
+}
+.contato{
+    height: 612px;
+    width: 100vw;
+
+}
+
+
+.open {
+    display: block;
+}
+
+.close {
+
+    display: none;
+
+
+}

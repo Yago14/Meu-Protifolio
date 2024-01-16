@@ -1,0 +1,38 @@
+@media  (max-width:700px){
+    .navBar{
+        display: none;
+    }
+    header svg{
+        display: block;
+    }
+   
+    .sobre .biografia{
+        width: 300px;
+        height: 270px;
+    }
+    .sobre .banner{
+        width: 280px;
+        height: 280px;
+    }
+    .habilidades{
+        margin-top: 5rem;
+    }
+    .habilidades .card {
+        width: 170px;
+        height: 260px ;
+        
+    }
+    .projetos{
+        margin-top: 2rem;
+    }
+    h2{
+        margin: 0 0 2rem 0;
+    }
+ 
+    
+}
+@media (min-width:700px){
+    .navBarMobile{
+        display: none;
+    }
+}
