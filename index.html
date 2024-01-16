@@ -131,16 +131,30 @@
         </div>
     </section>
 
-    <h2 id="contato">Contato</h2>
+    <h2 id="contato">Contatos</h2>
 
-    <section class="contato">
+    <footer class="contato">
                   
-        <form action="https://formsubmit.co/ggbravier@gmail.com" method="POST">
-            <input type="text" name="name" required>
-            <input type="email" name="email" required>
-            <button type="submit">Send</button>
+        <form class="form" action="https://formsubmit.co/ggbravier@gmail.com" method="POST">
+            <h3>Envie um e-mail</h3>
+
+            <input type="text" name="name" placeholder="Digite seu nome" required>
+            <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            <textarea  name="texto"cols="30" rows="10" placeholder="Escreva a sua menssagem"required></textarea>
+            <button type="submit">
+                Enviar E-mail
+            </button>
        </form>
-    </section>
+       <div class="outros-contatos">
+        <h4>outros contatos</h4>
+        <ul>
+            <li>
+               
+                <a href="https://wa.me/5583982171484" target="_blank" > <img src="src/assets/icon/whatsapp.png" alt="whatsapp">(83) 98217-1484</a>
+            </li>
+        </ul>
+       </div>
+    </footer>
 
 
 </body>

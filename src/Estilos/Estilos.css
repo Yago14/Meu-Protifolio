@@ -23,7 +23,6 @@ header h1 {
     border-radius: 100%;
     padding: 1rem;
     border: solid 2px var(--cor-fonte);
-  
     font-size: medium;
 
 }
@@ -32,7 +31,6 @@ header svg {
     display: none;
     color: var(--cor-fonte);
     cursor: pointer;
-
 
 }
 
@@ -62,6 +60,8 @@ header svg {
     width: 100vw;
     position: absolute;
     top: 20px;
+    right: 10px;
+   
 
 }
 
@@ -172,15 +172,18 @@ a:hover {
 }
 
 .habilidades .card {
-    height: 300px;
-    width: 200px;
+    height: 380px;
+    width: 290px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 1rem;
+    margin: 0.5rem;
+    padding: 1rem;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    justify-content: space-between;
+    background-color: var(--cor-cinzaClaro);
 }
 
 .habilidades .card img {
@@ -208,9 +211,10 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    height: 300px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
     color: var(--cor-fonte);
+    background-color: var(--cor-cinzaClaro);
 
 
 }
@@ -223,8 +227,8 @@ a:hover {
 
 .projetos .card p {
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     padding: 1rem;
     text-align: center;
     color: transparent;
@@ -244,17 +248,18 @@ a:hover {
 }
 
 .projetos .card img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 100%;
     margin-bottom: 2rem;
     border: solid 2px var(--cor-fonte);
+    
 
 
 }
 
 .projetos button {
-    height: 1.5rem;
+    height: 2rem;
     width: 100%;
     border-radius: 5px;
     border: none;
@@ -272,8 +277,80 @@ a:hover {
 
 }
 .contato{
-    height: 612px;
+    height: 45vh;
     width: 100vw;
+    background-color: var(--cor-escura);
+    color: var(--cor-fonte);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.contato .form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contato .form h3{
+    font-size: medium;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contato .form input{
+    height: 2rem;
+    width: 500px;
+    margin: 0.6rem 0;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0 1rem;
+
+}
+.contato .form textarea{
+    margin: 0.6rem 0;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem;
+
+}
+.contato .form button{
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0 1rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cor-cinzaMedio);
+    color: var(--cor-fonte);
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 500ms;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.contato .outros-contatos{
+    display: flex;
+    flex-direction: column;
+     height: 300px;
+     justify-content: space-around;
+
+}
+.contato .outros-contatos h4{
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+
+}
+.contato .outros-contatos ul li a{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height:36px ;
+   gap: 1rem;
+
 
 }
 
