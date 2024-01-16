@@ -39,9 +39,11 @@
 
 
 @media (max-width:414px) {
+ 
     .sobre .biografia {
         height: 300px;
         width: 200px;
+        
     }
     .sobre .banner {
         align-items: center;
@@ -68,8 +70,15 @@
         width: 150px;
         height: 230px;
     }
+    
     .projetos .card h3{
         font-size: 12px;
+
+    }
+    .projetos .card p{
+        font-size: 10px;
+        height: 150px;
+        width: 150px;
 
     }
     .projetos .card img{
