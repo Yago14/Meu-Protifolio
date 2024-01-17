@@ -18,12 +18,13 @@ header {
 header h1 {
     position: absolute;
     color: var(--cor-fonte);
-    margin: 0 1rem;
+
     font-weight: 400;
     border-radius: 100%;
     padding: 1rem;
     border: solid 2px var(--cor-fonte);
     font-size: medium;
+    bottom: 20px;
 
 }
 
@@ -61,16 +62,14 @@ header svg {
     position: absolute;
     top: 20px;
     right: 10px;
+ 
    
-
 }
 
 .navBarMobile {
     display: flex;
     flex-direction: column;
     width: 30px;
-
-
 
 }
 
@@ -82,16 +81,15 @@ header svg {
 
 }
 
-a {
+header a {
     color: var(--cor-fonte);
     padding: 0.5rem;
     border-radius: 1rem;
     cursor: pointer;
-    transition: all 500ms;
-
+    transition: all 500ms
 }
 
-a:hover {
+header a:hover {
 
     background-color: var(--cor-cinzaClaro);
 }
@@ -100,14 +98,14 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 3rem 0;
-    gap: 5rem;
+    gap: 2rem;
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-   
+
 
 }
 
@@ -115,11 +113,12 @@ a:hover {
     visibility: hidden;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-    height: 200px;
+    justify-content: center;
+    gap: 1rem;
+    height: 400px;
     width: 400px;
     color: var(--cor-fonte);
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
 
 }
 
@@ -145,6 +144,19 @@ a:hover {
     height: 30px;
     width: 30px;
 
+}
+
+.sobre .biografia button {
+    margin: 1rem 0;
+    height: 2rem;
+    background-color: var(--cor-escura);
+    color: var(--cor-fonte);
+    border-radius: 0.5rem;
+    border: none;
+    font-size: medium;
+    height: 2rem;
+    width: 100%;
+    cursor: pointer;
 }
 
 .sobre .banner {
@@ -194,7 +206,7 @@ a:hover {
 }
 
 .projetos {
-    
+
     display: flex;
     flex-direction: row;
     height: 100vh;
@@ -221,7 +233,8 @@ a:hover {
 
 
 }
-.projetos .card h3{
+
+.projetos .card h3 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
@@ -236,10 +249,14 @@ a:hover {
     text-align: center;
     color: transparent;
     transition: all 700ms;
-    font-weight: 300;
+    font-weight: 800;
     font-size: small;
     border-radius: 1rem;
-   
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
 }
 
 .projetos .card p:hover {
@@ -256,7 +273,7 @@ a:hover {
     border-radius: 100%;
     margin-bottom: 2rem;
     border: solid 2px var(--cor-fonte);
-    
+
 
 
 }
@@ -273,13 +290,15 @@ a:hover {
     transition: all 500ms;
 
 }
-.projetos button:hover{
+
+.projetos button:hover {
     scale: 1.03;
     background-color: var(--cor-cinzaClaro);
     color: var(--cor-escura);
 
 }
-.contato{
+
+.contato {
     height: 50vh;
     width: 100vw;
     background-color: var(--cor-escura);
@@ -294,17 +313,20 @@ a:hover {
     padding: 1rem;
 
 }
-.contato .form{
+
+.contato .form {
     display: flex;
     flex-direction: column;
-    
+
 }
-.contato .form h3{
+
+.contato .form h3 {
     font-size: medium;
     font-weight: 400;
     text-transform: uppercase;
 }
-.contato .form input{
+
+.contato .form input {
     height: 2rem;
     width: 400px;
     margin: 0.6rem 0;
@@ -313,14 +335,16 @@ a:hover {
     padding: 0 1rem;
 
 }
-.contato .form textarea{
+
+.contato .form textarea {
     margin: 0.6rem 0;
     border-radius: 0.5rem;
     border: none;
     padding: 1rem;
 
 }
-.contato .form button{
+
+.contato .form button {
     border-radius: 0.5rem;
     border: none;
     padding: 0 1rem;
@@ -334,38 +358,41 @@ a:hover {
     transition: all 500ms;
     font-weight: 400;
     font-size: 16px;
-    
-}
-.contato .outros-contatos{
-    display: flex;
-    flex-direction: column;
-     height: 300px;
-    width: 500px;
-     justify-content: space-around;
-     background-color: var(--cor-escura);
 
 }
-.contato .outros-contatos h4{
+
+.contato .outros-contatos {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    justify-content: space-around;
+    background-color: var(--cor-escura);
+
+}
+
+.contato .outros-contatos h4 {
     text-transform: uppercase;
     font-weight: 400;
     text-align: center;
 
 }
-.contato .outros-contatos ul li{
+
+.contato .outros-contatos ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
 }
-.contato .outros-contatos ul li a{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   height:36px ;
-   gap: 1rem;
 
+.contato .outros-contatos ul li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    gap: 1rem;
 
 }
 

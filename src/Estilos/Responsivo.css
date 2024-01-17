@@ -38,7 +38,7 @@
 
 
 
-@media (max-width:906px) {
+@media (max-width:688px) {
  
     .sobre .biografia {
         height: 300px;
@@ -105,7 +105,7 @@
 
   
 }
-@media (max-width:393px){
+@media (max-width:414px){
     .sobre{
         gap: 2px;
     }
@@ -116,6 +116,7 @@
     }
     .sobre .biografia p{
         font-size: small;
+        
     }
     .sobre .banner{
         align-items: start;
@@ -124,6 +125,10 @@
    
     .habilidades{
         height: 1300px;
+    }
+    .projetos .card p{
+        font-size: 8px;
+        letter-spacing: 0;
     }
 
 } 
