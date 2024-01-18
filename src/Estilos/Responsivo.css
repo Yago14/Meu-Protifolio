@@ -26,24 +26,17 @@
     h2 {
         margin: 0 0 2rem 0;
     }
-
-
 }
-
 @media (min-width:700px) {
     .navBarMobile {
         display: none;
     }
 }
-
-
-
-@media (max-width:688px) {
+@media (max-width:980px) {
  
     .sobre .biografia {
         height: 300px;
-        width: 200px;
-        
+        width: 200px;        
     }
     .sobre .banner {
         align-items: center;
@@ -76,16 +69,14 @@
         width: 150px;
         height: 230px;
     }
-    
     .projetos .card h3{
         font-size: 12px;
-
     }
     .projetos .card p{
-        font-size: 10px;
+        font-size: 8px;
         height: 150px;
         width: 150px;
-
+        letter-spacing: 0;
     }
     .projetos .card img{
         height: 90px;
@@ -101,28 +92,22 @@
     .contato .form input{
         width: 360px;
     }
-
-
-  
 }
 @media (max-width:414px){
     .sobre{
         gap: 2px;
     }
-  
     .sobre .biografia h1{
        font-size: medium;
        margin: 0.7rem 0 0 0;
     }
     .sobre .biografia p{
-        font-size: small;
-        
+        font-size: small;       
     }
     .sobre .banner{
         align-items: start;
         justify-content: start;
     }
-   
     .habilidades{
         height: 1300px;
     }

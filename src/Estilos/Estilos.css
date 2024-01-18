@@ -15,17 +15,20 @@ header {
 
 }
 
-header h1 {
+header .logo {
     position: absolute;
     color: var(--cor-fonte);
-
-    font-weight: 400;
+    background-image: url("../assets/icon/LOGO.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 100%;
-    padding: 1rem;
     border: solid 2px var(--cor-fonte);
-    font-size: medium;
     bottom: 20px;
-
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+   
 }
 
 header svg {
@@ -238,7 +241,7 @@ header a:hover {
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    color: var(--cor-escura);
+    color: var(--cor-fonte);
 }
 
 .projetos .card p {
@@ -393,6 +396,7 @@ header a:hover {
     justify-content: center;
     height: 36px;
     gap: 1rem;
+    color: var(--cor-fonte);
 
 }
 
