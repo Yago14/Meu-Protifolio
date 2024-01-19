@@ -281,7 +281,7 @@ header a:hover {
 
 }
 
-.projetos button {
+.projetos a {
     height: 2rem;
     width: 100%;
     border-radius: 5px;
@@ -291,10 +291,13 @@ header a:hover {
     margin-bottom: 1rem;
     cursor: pointer;
     transition: all 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.projetos button:hover {
+.projetos a:hover {
     scale: 1.03;
     background-color: var(--cor-cinzaClaro);
     color: var(--cor-escura);
