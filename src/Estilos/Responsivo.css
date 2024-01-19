@@ -53,13 +53,14 @@
     }
     .habilidades{
         height: 900px;
+        
     }
     .habilidades .card{
         width: 150px;
         height: 230px;
        
     }
-    .habilidades .card p{
+    .habilidades .card ul li{
         font-size: 10px;
     }
     .projetos{
@@ -70,7 +71,9 @@
         height: 230px;
     }
     .projetos .card h3{
-        font-size: 12px;
+        font-size: small;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
     }
     .projetos .card p{
         font-size: 8px;
@@ -109,7 +112,7 @@
         justify-content: start;
     }
     .habilidades{
-        height: 1300px;
+        height: 1550px;
     }
     .projetos .card p{
         font-size: 8px;
